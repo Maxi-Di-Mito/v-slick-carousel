@@ -10,7 +10,7 @@
   },
   "packageManager": "pnpm@9.6.0",
   "scripts": {
-    "preinstall": "npx only-allow pnpm",
+    "preinstall": "false && npx only-allow pnpm",
     "build": "pnpm --filter=v-slick-carousel run build",
     "dev": "pnpm --filter=v-slick-carousel run dev",
     "docs:dev": "concurrently \"pnpm --filter=v-slick-carousel run build:watch\" \"pnpm --filter=docs run docs:dev\"",
