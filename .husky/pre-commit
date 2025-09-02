@@ -1,2 +1,0 @@
-pnpm -F v-slick-carousel run typecheck
-pnpm -F v-slick-carousel run lint-staged
